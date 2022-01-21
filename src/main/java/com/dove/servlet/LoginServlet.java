@@ -21,6 +21,7 @@ public class LoginServlet extends HttpServlet {
         System.out.println("启动成功,访问到初始页面3...");
         System.out.println("启动成功,访问到初始页面4...");
         System.out.println("master test");
+        System.out.println("hot-fix test");
         response.sendRedirect(request.getContextPath() + "/hello.html");
     }
 
