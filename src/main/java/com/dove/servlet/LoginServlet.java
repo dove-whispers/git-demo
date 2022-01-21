@@ -20,6 +20,7 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         System.out.println("启动成功,访问到初始页面...");
+        System.out.println("启动成功,访问到初始页面2...");
         response.sendRedirect(request.getContextPath() + "/hello.html");
     }
 

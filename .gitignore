@@ -21,6 +21,7 @@ gen
 *.rar
 *.orig
 #others
+/.idea/
 .classpath
 .project
 .settings
@@ -31,3 +32,4 @@ target
 *.tmp
 *.ipr
 *.iws
+src/test/
