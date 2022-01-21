@@ -1,8 +1,5 @@
 package com.dove.servlet;
 
-import lombok.extern.slf4j.Slf4j;
-
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -21,6 +18,7 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         System.out.println("启动成功,访问到初始页面...");
         System.out.println("启动成功,访问到初始页面2...");
+        System.out.println("启动成功,访问到初始页面3...");
         response.sendRedirect(request.getContextPath() + "/hello.html");
     }
 
